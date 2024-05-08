@@ -1,0 +1,58 @@
+.quest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.qContainer {
+  width: 1440px;
+  height: 720px;
+  background-color: rgba(232, 238, 231, 1);
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ask {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.mind, .askq{
+    align-self: flex-start;
+    margin-left: 100px;
+}
+
+.my-accord {
+  flex: 1;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -470px;
+  position: relative;
+}
+
+.union{
+    position: absolute;
+    top: 170px;
+    left: 0px;
+}
+
+.mind {
+  font-size: 24px;
+  font-family: "Covered By Your Grace", cursive;
+  color: rgba(158, 157, 157, 1);
+  font-weight: 400;
+}
+
+.askq{
+    color: rgba(28, 28, 28, 1);
+    font-family: "Manrope", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}

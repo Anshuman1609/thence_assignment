@@ -1,0 +1,141 @@
+.header {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.hContainer {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+}
+
+.upper {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grace {
+  text-align: center;
+  width: 250px;
+  font-size: 25px;
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(45, 169, 80, 1);
+}
+
+.success {
+  color: rgba(28, 28, 28, 1);
+  font-weight: 600;
+  width: 80%;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  line-height: 50px;
+  letter-spacing: normal;
+}
+
+.lower {
+  margin-left: 100px;
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.image-side {
+  flex: 1;
+  display: flex;
+  position: relative;
+}
+
+.funny {
+  width: 80%;
+  height: auto;
+  border-radius: 40px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.o1 {
+  padding: 10px 15px 20px 15px;
+  top: 80px;
+  border-radius: 27px;
+  left: -100px;
+  right: 360px;
+  vertical-align: auto;
+  box-shadow: 0px 22px 36px 0px rgba(30, 30, 30, 0.09);
+  background-color: rgba(255, 255, 255, 1);
+}
+.o1 > h1 {
+  font-size: 43px;
+  color: rgba(28, 28, 28, 1);
+}
+.o1 > p {
+  color: rgba(130, 130, 130, 1);
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+}
+
+.o2 {
+  top: 300px;
+  bottom: 20px;
+  left: -60px;
+  right: 305px;
+  border-radius: 111px;
+  padding: 16px 25px 16px 16px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 15.21px 35.49px 0px rgba(0, 0, 0, 0.09);
+}
+.days > p {
+  color: rgba(130, 130, 130, 1);
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+}
+
+.o3 {
+  background-color: rgba(0, 46, 24, 1);
+  border-radius: 28px;
+  box-shadow: 0px 23px 37px 0px rgba(30, 30, 30, 0.09);
+  top: 250px;
+  left: 200px;
+  right: 50px;
+  padding: 17px 15px 20px 18px;
+}
+.mil {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 50px;
+}
+.mil > .million {
+  color: rgba(166, 163, 160, 1);
+  font-size: 16px;
+}
+.reduce {
+  color: rgba(204, 204, 204, 1);
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.carousel {
+  flex: 1;
+}

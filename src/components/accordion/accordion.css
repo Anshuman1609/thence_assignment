@@ -1,0 +1,42 @@
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+.accordion-item {
+  border-top: 1px solid rgba(215, 215, 215, 1);
+  margin-bottom: 36px;
+  overflow: hidden;
+  width: 90%;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  cursor: pointer;
+}
+
+.accordion-title {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgba(28, 28, 28, 1);
+  width: 450px;
+}
+
+.accordion-toggle {
+  color: rgba(0, 0, 0, 1);
+  font-size: 25px;
+  font-weight: 700;
+}
+.accordion-border{
+    border-top: none;
+}
+.accordion-content {
+  font-family: "Manrope", sans-serif;
+  padding: 16px 24px;
+  color: rgba(97, 114, 117, 1);
+}

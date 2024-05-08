@@ -19,6 +19,9 @@
   margin-left: 20px;
   margin-top: 100px;
 }
+.explore:hover {
+  background-color: rgba(78, 78, 78, 1);
+}
 
 .fortune {
   display: flex;

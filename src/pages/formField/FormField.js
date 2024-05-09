@@ -40,10 +40,6 @@ const FormField = () => {
         }
 
         setIsSubmitted(true);
-
-        setTimeout(() => {
-            navigate("/");
-        }, 5000);
     };
 
     return (

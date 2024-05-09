@@ -1,0 +1,164 @@
+.formNav {
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px;
+  margin: 0px 70px;
+}
+
+.formNav > img {
+  width: 127px;
+  height: auto;
+}
+.closing {
+  font-size: 20px;
+  border: 2px solid rgba(12, 19, 25, 1);
+  border-radius: 67px;
+  padding: 9px 14.5px;
+  cursor: pointer;
+}
+.hideclosing{
+  display: none;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.uptext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.grace {
+  text-align: center;
+  width: 250px;
+  font-size: 25px;
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(45, 169, 80, 1);
+}
+
+.success {
+  color: rgba(28, 28, 28, 1);
+  font-weight: 600;
+  width: 80%;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  line-height: 50px;
+  letter-spacing: normal;
+}
+
+.sucsub{
+  color: rgba(114, 114, 114, 1);
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  width: 45%;
+  margin-top: -5px;
+  margin-bottom: 32px;
+}
+
+.lowform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.input {
+  width: 250px;
+  background-color: rgba(239, 239, 239, 1);
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  padding: 24px 24px 24px 33px;
+  border-radius: 64px;
+}
+.input::placeholder {
+  color: rgba(130, 122, 122, 1);
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+.lowform > button {
+  border-radius: 107px;
+  width: 305px;
+  color: rgba(255, 255, 255, 1);
+  padding: 24px 24px 24px 33px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.lowform > button:disabled {
+  cursor: not-allowed;
+}
+
+.error {
+  color: rgba(255, 8, 8, 1);
+  font-weight: 500;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+}
+.submitted-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 110px;
+  gap: 100px;
+}
+
+.submitted-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.submitted-text .grace {
+  font-size: 30px;
+  text-align: center;
+}
+
+.submitted-text .success {
+  margin-top: -30px;
+  font-size: 50px;
+  text-align: center;
+}
+
+:root {
+  --custom-green: rgba(40, 178, 70, 1);
+}
+.tick-container {
+  display: inline-block;
+  background-color: var(--custom-green);
+  padding: 15px 18px;
+  border-radius: 50%;
+}
+
+.tick {
+  font-size: 32px;
+  line-height: 1;
+  color: white;
+}
+
+.redirect{
+  font-weight: 500;
+  font-family: "Manrope", sans-serif;
+}
+.redirect > span{
+  font-weight: 700;
+}

@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "./navbar.css";
-import React from 'react'
+import React from 'react';
+import vector from "../../images/vector.png";
 
 const Navbar = () => {
 
@@ -10,10 +11,11 @@ const Navbar = () => {
         navigate("/form");
     }
 
-    return (    
+    return (
         <div className="navbar">
             <div className="navContainer">
-                <button className="brunel navButton">Brunel</button>
+                <img src={vector} alt="Brunel" />
+                {/* <button className="brunel navButton">Brunel</button> */}
                 <div className="navItems">
                     <button onClick={handleNavigate} className="navButton a">Get Projects</button>
                     <button className="navButton b">Onboard Talent</button>

@@ -1,7 +1,6 @@
 .navbar {
   height: 120px;
   background-color: rgba(255, 255, 255, 1);
-  /* background-color: pink; */
   display: flex;
   justify-content: center;
 }
@@ -66,4 +65,10 @@
   padding-top: 0px;
   font-family: "Manrope", sans-serif;
   padding-bottom: 0px;
+}
+
+.navContainer > img {
+  margin-left: 30px;
+  width: 120px;
+  height: auto;
 }
